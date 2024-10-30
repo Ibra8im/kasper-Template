@@ -1,0 +1,52 @@
+/* Start Variable */
+:root {
+    --main-color: #19c8fa;
+
+}
+
+/* End Variable */
+/* Start Golbal Rule */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "opensan", sans-serif;
+    background-color: black;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small */
+@media (min-width :768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width :992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Larg */
+@media (min-width :1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rule */
+/* Start Header */
+header .container{
+
+}
+/* Start Header */
